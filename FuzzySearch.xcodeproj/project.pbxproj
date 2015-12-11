@@ -12,6 +12,11 @@
 		2408F9E41C192CAC0002FE7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2408F9E21C192CAC0002FE7E /* Main.storyboard */; };
 		2408F9E61C192CAC0002FE7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2408F9E51C192CAC0002FE7E /* Assets.xcassets */; };
 		2408F9E91C192CAC0002FE7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2408F9E71C192CAC0002FE7E /* LaunchScreen.storyboard */; };
+		2408F9F11C192DB40002FE7E /* dictionary.json in Resources */ = {isa = PBXBuildFile; fileRef = 2408F9F01C192DB40002FE7E /* dictionary.json */; };
+		2408F9F31C19316B0002FE7E /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2408F9F21C19316B0002FE7E /* Word.swift */; };
+		2408F9F51C195B230002FE7E /* WordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2408F9F41C195B230002FE7E /* WordController.swift */; };
+		2408F9F71C1962EB0002FE7E /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2408F9F61C1962EB0002FE7E /* ResultsTableViewController.swift */; };
+		247F50AB1C19F06B004731A8 /* DetailWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247F50AA1C19F06B004731A8 /* DetailWordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		2408F9E51C192CAC0002FE7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2408F9E81C192CAC0002FE7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2408F9EA1C192CAC0002FE7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2408F9F01C192DB40002FE7E /* dictionary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dictionary.json; sourceTree = "<group>"; };
+		2408F9F21C19316B0002FE7E /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		2408F9F41C195B230002FE7E /* WordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordController.swift; sourceTree = "<group>"; };
+		2408F9F61C1962EB0002FE7E /* ResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
+		247F50AA1C19F06B004731A8 /* DetailWordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailWordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +66,15 @@
 			children = (
 				2408F9DE1C192CAC0002FE7E /* AppDelegate.swift */,
 				2408F9E01C192CAC0002FE7E /* ViewController.swift */,
+				2408F9F61C1962EB0002FE7E /* ResultsTableViewController.swift */,
+				2408F9F21C19316B0002FE7E /* Word.swift */,
+				2408F9F41C195B230002FE7E /* WordController.swift */,
 				2408F9E21C192CAC0002FE7E /* Main.storyboard */,
+				247F50AA1C19F06B004731A8 /* DetailWordViewController.swift */,
 				2408F9E51C192CAC0002FE7E /* Assets.xcassets */,
 				2408F9E71C192CAC0002FE7E /* LaunchScreen.storyboard */,
 				2408F9EA1C192CAC0002FE7E /* Info.plist */,
+				2408F9F01C192DB40002FE7E /* dictionary.json */,
 			);
 			path = FuzzySearch;
 			sourceTree = "<group>";
@@ -123,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2408F9E91C192CAC0002FE7E /* LaunchScreen.storyboard in Resources */,
+				2408F9F11C192DB40002FE7E /* dictionary.json in Resources */,
 				2408F9E61C192CAC0002FE7E /* Assets.xcassets in Resources */,
 				2408F9E41C192CAC0002FE7E /* Main.storyboard in Resources */,
 			);
@@ -136,7 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2408F9E11C192CAC0002FE7E /* ViewController.swift in Sources */,
+				247F50AB1C19F06B004731A8 /* DetailWordViewController.swift in Sources */,
 				2408F9DF1C192CAC0002FE7E /* AppDelegate.swift in Sources */,
+				2408F9F31C19316B0002FE7E /* Word.swift in Sources */,
+				2408F9F51C195B230002FE7E /* WordController.swift in Sources */,
+				2408F9F71C1962EB0002FE7E /* ResultsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +306,7 @@
 				2408F9EF1C192CAC0002FE7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
